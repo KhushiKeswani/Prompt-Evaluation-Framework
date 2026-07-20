@@ -1,0 +1,79 @@
+[
+  {
+    "id": "em_01",
+    "input": "What is 2 + 2?",
+    "expected": "4",
+    "metric": "exact_match"
+  },
+  {
+    "id": "em_02",
+    "input": "What is the capital of France?",
+    "expected": "Paris",
+    "metric": "exact_match"
+  },
+  {
+    "id": "em_03",
+    "input": "Reverse the word 'cat'.",
+    "expected": "tac",
+    "metric": "exact_match"
+  },
+  {
+    "id": "em_04",
+    "input": "What is 15 * 3?",
+    "expected": "45",
+    "metric": "exact_match"
+  },
+  {
+    "id": "rb_01",
+    "input": "Return a JSON object with a 'summary' key summarizing: 'The sun is a star at the center of our solar system.'",
+    "expected": null,
+    "metric": "rubric",
+    "rules": [
+      "valid_json",
+      "has_key:summary",
+      "under_words:100"
+    ]
+  },
+  {
+    "id": "rb_02",
+    "input": "Return a JSON object with keys 'name' and 'age' for a person named John who is 30 years old.",
+    "expected": null,
+    "metric": "rubric",
+    "rules": [
+      "valid_json",
+      "has_key:name",
+      "has_key:age"
+    ]
+  },
+  {
+    "id": "rb_03",
+    "input": "List 3 fruits as a JSON array under the key 'fruits'.",
+    "expected": null,
+    "metric": "rubric",
+    "rules": [
+      "valid_json",
+      "has_key:fruits"
+    ]
+  },
+  {
+    "id": "lj_01",
+    "input": "Summarize this in one sentence: 'The Industrial Revolution began in Britain in the late 18th century and transformed manufacturing, transportation, and the global economy through the introduction of machinery and factory-based production.'",
+    "expected": null,
+    "metric": "llm_judge",
+    "criteria": "factual accuracy, conciseness (under 25 words), and completeness"
+  },
+  {
+    "id": "lj_02",
+    "input": "Explain what a for loop does, in simple terms for a beginner.",
+    "expected": null,
+    "metric": "llm_judge",
+    "criteria": "clarity, correctness, and beginner-friendliness"
+  },
+  {
+    "id": "lj_03",
+    "input": "Write a short, professional email declining a meeting invite due to a scheduling conflict.",
+    "expected": null,
+    "metric": "llm_judge",
+    "criteria": "politeness, professionalism, and clarity of reason given"
+  }
+]

@@ -1,0 +1,167 @@
+[
+    {
+        "task_id": "1",
+        "version_id": "v1",
+        "input": "What is the boiling point of water in Celsius?",
+        "metric": "exact_match",
+        "rules": [
+            "valid_json",
+            "no_markdown",
+            "no_extra_text"
+        ]
+    },
+    {
+        "task_id": "1",
+        "version_id": "v2",
+        "input": "Answer briefly and accurately: what is the boiling point of water in Celsius?",
+        "metric": "exact_match",
+        "rules": [
+            "valid_json",
+            "no_markdown",
+            "no_extra_text"
+        ]
+    },
+    {
+        "task_id": "1",
+        "version_id": "v3",
+        "input": "You are a precise assistant. Give ONLY the final answer, no explanation, no extra words. What is the boiling point of water in Celsius?",
+        "metric": "exact_match",
+        "rules": [
+            "valid_json",
+            "no_markdown",
+            "no_extra_text"
+        ]
+    },
+    {
+        "task_id": "2",
+        "version_id": "v1",
+        "input": "Return the info as JSON: name Alex, age 25.",
+        "metric": "rubric",
+        "rules": [
+            "valid_json",
+            "no_markdown",
+            "no_extra_text"
+        ]
+    },
+    {
+        "task_id": "2",
+        "version_id": "v2",
+        "input": "Return ONLY a valid JSON object (no markdown, no code fences, no extra text) with keys 'name' and 'age' for a person named Alex who is 25 years old.",
+        "metric": "rubric",
+        "rules": [
+            "valid_json",
+            "no_markdown",
+            "no_extra_text"
+        ]
+    },
+    {
+        "task_id": "2",
+        "version_id": "v3",
+        "input": "You are a strict JSON API. Output must be a single valid JSON object with no explanation, no backticks, no surrounding text. Create an object with keys 'name' and 'age' for Alex, age 25.",
+        "metric": "rubric",
+        "rules": [
+            "valid_json",
+            "no_markdown",
+            "no_extra_text"
+        ]
+    },
+    {
+        "task_id": "3",
+        "version_id": "v1",
+        "input": "Summarize this: Photosynthesis is the process by which plants convert sunlight into chemical energy stored in glucose.",
+        "metric": "llm_judge",
+        "rules": [
+            "valid_json",
+            "no_markdown",
+            "no_extra_text"
+        ]
+    },
+    {
+        "task_id": "3",
+        "version_id": "v2",
+        "input": "Summarize this in one concise sentence, keeping only the key facts: Photosynthesis is the process by which plants convert sunlight into chemical energy stored in glucose.",
+        "metric": "llm_judge",
+        "rules": [
+            "valid_json",
+            "no_markdown",
+            "no_extra_text"
+        ]
+    },
+    {
+        "task_id": "3",
+        "version_id": "v3",
+        "input": "You are an expert editor. Write a single-sentence summary under 25 words, factually accurate, no fluff, of the following: Photosynthesis is the process by which plants convert sunlight into chemical energy stored in glucose.",
+        "metric": "llm_judge",
+        "rules": [
+            "valid_json",
+            "no_markdown",
+            "no_extra_text"
+        ]
+    },
+    {
+        "task_id": "4",
+        "version_id": "v1",
+        "input": "Explain what recursion means in programming.",
+        "metric": "llm_judge",
+        "rules": [
+            "valid_json",
+            "no_markdown",
+            "no_extra_text"
+        ]
+    },
+    {
+        "task_id": "4",
+        "version_id": "v2",
+        "input": "Explain what recursion means in programming, in simple terms for a beginner.",
+        "metric": "llm_judge",
+        "rules": [
+            "valid_json",
+            "no_markdown",
+            "no_extra_text"
+        ]
+    },
+    {
+        "task_id": "4",
+        "version_id": "v3",
+        "input": "You are a patient teacher. Explain what recursion means in programming to someone with no prior background, using a simple analogy, in under 100 words.",
+        "metric": "llm_judge",
+        "rules": [
+            "valid_json",
+            "no_markdown",
+            "no_extra_text"
+        ]
+    },
+    {
+        "task_id": "5",
+        "version_id": "v1",
+        "input": "Write an email declining a meeting invite due to a scheduling conflict.",
+        "metric": "llm_judge",
+        "rules": [
+            "valid_json",
+            "no_markdown",
+            "no_extra_text"
+        ]
+    },
+    {
+        "task_id": "5",
+        "version_id": "v2",
+        "input": "Write a short, professional email declining a meeting invite due to a scheduling conflict.",
+        "metric": "llm_judge",
+        "rules": [
+            "valid_json",
+            "no_markdown",
+            "no_extra_text"
+        ]
+    },
+    {
+        "task_id": "5",
+        "version_id": "v3",
+        "input": "You are a professional communicator. Write a concise, polite email (under 80 words) declining a meeting invite due to a scheduling conflict, with a clear reason stated.",
+        "metric": "llm_judge",
+        "rules": [
+            "valid_json",
+            "no_markdown",
+            "no_extra_text"
+        ]
+    }
+]

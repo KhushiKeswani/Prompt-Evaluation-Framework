@@ -1,0 +1,242 @@
+[
+    {
+        "avg_score": 1.0,
+        "avg_latency": 2.0207964000001084,
+        "details": [
+            {
+                "id": "1",
+                "version": "v1",
+                "score": 1.0,
+                "method": "llm_judge",
+                "judge_reason": "The answer is factually correct, direct, and perfectly concise with no unnecessary words.",
+                "latency": 2.0207964000001084,
+                "total_tokens": 322
+            }
+        ]
+    },
+    {
+        "avg_score": 0.1,
+        "avg_latency": 2.005478700000822,
+        "details": [
+            {
+                "id": "1",
+                "version": "v2",
+                "score": 0.1,
+                "method": "llm_judge",
+                "judge_reason": "The provided answer does not state the boiling point of water (100 \u00b0C) and instead contains an unrelated JSON evaluation.",
+                "latency": 2.005478700000822,
+                "total_tokens": 410
+            }
+        ]
+    },
+    {
+        "avg_score": 1.0,
+        "avg_latency": 1.677521900001011,
+        "details": [
+            {
+                "id": "1",
+                "version": "v3",
+                "score": 1.0,
+                "method": "llm_judge",
+                "judge_reason": "The answer is factually correct, perfectly concise, and strictly followed the negative constraints by providing only the final answer.",
+                "latency": 1.677521900001011,
+                "total_tokens": 351
+            }
+        ]
+    },
+    {
+        "avg_score": 1.0,
+        "avg_latency": 27.41535080000176,
+        "details": [
+            {
+                "id": "2",
+                "version": "v1",
+                "score": 1.0,
+                "method": "rubric_passed",
+                "rubric_results": {
+                    "valid_json": true,
+                    "no_markdown": false,
+                    "no_extra_text": false,
+                    "passed": true
+                },
+                "latency": 27.41535080000176,
+                "total_tokens": 1682
+            }
+        ]
+    },
+    {
+        "avg_score": 1.0,
+        "avg_latency": 7.445601400002488,
+        "details": [
+            {
+                "id": "2",
+                "version": "v2",
+                "score": 1.0,
+                "method": "rubric_passed",
+                "rubric_results": {
+                    "valid_json": true,
+                    "no_markdown": false,
+                    "no_extra_text": false,
+                    "passed": true
+                },
+                "latency": 7.445601400002488,
+                "total_tokens": 1590
+            }
+        ]
+    },
+    {
+        "avg_score": 1.0,
+        "avg_latency": 6.718249700003071,
+        "details": [
+            {
+                "id": "2",
+                "version": "v3",
+                "score": 1.0,
+                "method": "rubric_passed",
+                "rubric_results": {
+                    "valid_json": true,
+                    "no_markdown": false,
+                    "no_extra_text": false,
+                    "passed": true
+                },
+                "latency": 6.718249700003071,
+                "total_tokens": 1567
+            }
+        ]
+    },
+    {
+        "avg_score": 0.1,
+        "avg_latency": 5.922368600000482,
+        "details": [
+            {
+                "id": "3",
+                "version": "v1",
+                "score": 0.1,
+                "method": "llm_judge",
+                "judge_reason": "The provided answer is not a summary of the text; instead, it is an evaluation of a non-existent summary, failing the prompt entirely.",
+                "latency": 5.922368600000482,
+                "total_tokens": 663
+            }
+        ]
+    },
+    {
+        "avg_score": 0.9,
+        "avg_latency": 3.389368000000104,
+        "details": [
+            {
+                "id": "3",
+                "version": "v2",
+                "score": 0.9,
+                "method": "llm_judge",
+                "judge_reason": "The answer is factually correct, direct, and perfectly concise with no unnecessary words.",
+                "latency": 3.389368000000104,
+                "total_tokens": 854
+            }
+        ]
+    },
+    {
+        "avg_score": 0.1,
+        "avg_latency": 3.5168052000008174,
+        "details": [
+            {
+                "id": "3",
+                "version": "v3",
+                "score": 0.1,
+                "method": "llm_judge",
+                "judge_reason": "The answer failed to provide the requested summary, instead outputting an evaluation JSON.",
+                "latency": 3.5168052000008174,
+                "total_tokens": 836
+            }
+        ]
+    },
+    {
+        "avg_score": 0.1,
+        "avg_latency": 4.054586099999142,
+        "details": [
+            {
+                "id": "4",
+                "version": "v1",
+                "score": 0.1,
+                "method": "llm_judge",
+                "judge_reason": "The answer is factually correct, direct, and perfectly concise with no unnecessary words.",
+                "latency": 4.054586099999142,
+                "total_tokens": 779
+            }
+        ]
+    },
+    {
+        "avg_score": 1.0,
+        "avg_latency": 4.7490942000004,
+        "details": [
+            {
+                "id": "4",
+                "version": "v2",
+                "score": 1.0,
+                "method": "llm_judge",
+                "judge_reason": "The explanation is highly accurate, concise, and clearly defines the two essential components of recursion (base case and recursive case) without any unnecessary verbosity or fluff.",
+                "latency": 4.7490942000004,
+                "total_tokens": 827
+            }
+        ]
+    },
+    {
+        "avg_score": 0.1,
+        "avg_latency": 5.505905200003326,
+        "details": [
+            {
+                "id": "4",
+                "version": "v3",
+                "score": 0.1,
+                "method": "llm_judge",
+                "judge_reason": "The provided answer does not explain recursion; instead, it contains a meta-evaluation JSON block, completely failing to answer the prompt.",
+                "latency": 5.505905200003326,
+                "total_tokens": 1637
+            }
+        ]
+    },
+    {
+        "avg_score": 0.9,
+        "avg_latency": 7.582750399997167,
+        "details": [
+            {
+                "id": "5",
+                "version": "v1",
+                "score": 0.9,
+                "method": "llm_judge",
+                "judge_reason": "The email is highly concise, polite, and directly addresses the scheduling conflict without unnecessary details.",
+                "latency": 7.582750399997167,
+                "total_tokens": 1703
+            }
+        ]
+    },
+    {
+        "avg_score": 0.3,
+        "avg_latency": 8.4627502000003,
+        "details": [
+            {
+                "id": "5",
+                "version": "v2",
+                "score": 0.3,
+                "method": "llm_judge",
+                "judge_reason": "The answer failed to directly answer the prompt. Instead of writing the email, it returned a JSON evaluation of a drafted email, resulting in severe formatting issues and unnecessary meta-commentary.",
+                "latency": 8.4627502000003,
+                "total_tokens": 1747
+            }
+        ]
+    },
+    {
+        "avg_score": 0.1,
+        "avg_latency": 3.2047373999994306,
+        "details": [
+            {
+                "id": "5",
+                "version": "v3",
+                "score": 0.1,
+                "method": "llm_judge",
+                "judge_reason": "The provided answer did not write the requested email, but instead provided a JSON evaluation of a non-existent email.",
+                "latency": 3.2047373999994306,
+                "total_tokens": 831
+            }
+        ]
+    }
+]

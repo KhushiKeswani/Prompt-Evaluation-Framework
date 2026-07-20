@@ -1,0 +1,42 @@
+[
+  {
+    "task_id": "1",
+    "versions": [
+      {"id": "v1", "prompt": "What is the boiling point of water in Celsius?"},
+      {"id": "v2", "prompt": "Answer briefly and accurately: what is the boiling point of water in Celsius?"},
+      {"id": "v3", "prompt": "You are a precise assistant. Give ONLY the final answer, no explanation, no extra words. What is the boiling point of water in Celsius?"}
+    ]
+  },
+  {
+    "task_id": "2",
+    "versions": [
+      {"id": "v1", "prompt": "Return the info as JSON: name Alex, age 25."},
+      {"id": "v2", "prompt": "Return ONLY a valid JSON object (no markdown, no code fences, no extra text) with keys 'name' and 'age' for a person named Alex who is 25 years old."},
+      {"id": "v3", "prompt": "You are a strict JSON API. Output must be a single valid JSON object with no explanation, no backticks, no surrounding text. Create an object with keys 'name' and 'age' for Alex, age 25."}
+    ]
+  },
+  {
+    "task_id": "3",
+    "versions": [
+      {"id": "v1", "prompt": "Summarize this: Photosynthesis is the process by which plants convert sunlight into chemical energy stored in glucose."},
+      {"id": "v2", "prompt": "Summarize this in one concise sentence, keeping only the key facts: Photosynthesis is the process by which plants convert sunlight into chemical energy stored in glucose."},
+      {"id": "v3", "prompt": "You are an expert editor. Write a single-sentence summary under 25 words, factually accurate, no fluff, of the following: Photosynthesis is the process by which plants convert sunlight into chemical energy stored in glucose."}
+    ]
+  },
+  {
+    "task_id": "4",
+    "versions": [
+      {"id": "v1", "prompt": "Explain what recursion means in programming."},
+      {"id": "v2", "prompt": "Explain what recursion means in programming, in simple terms for a beginner."},
+      {"id": "v3", "prompt": "You are a patient teacher. Explain what recursion means in programming to someone with no prior background, using a simple analogy, in under 100 words."}
+    ]
+  },
+  {
+    "task_id": "5",
+    "versions": [
+      {"id": "v1", "prompt": "Write an email declining a meeting invite due to a scheduling conflict."},
+      {"id": "v2", "prompt": "Write a short, professional email declining a meeting invite due to a scheduling conflict."},
+      {"id": "v3", "prompt": "You are a professional communicator. Write a concise, polite email (under 80 words) declining a meeting invite due to a scheduling conflict, with a clear reason stated."}
+    ]
+  }
+]
